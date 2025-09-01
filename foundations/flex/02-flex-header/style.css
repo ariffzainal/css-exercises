@@ -23,3 +23,20 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+
+/* Ariff's Solution starts here */
+
+.header {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between; /* this is to arrange horizontally (row) */
+  align-items: center; /* this is to arrange vertically within the container*/
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
