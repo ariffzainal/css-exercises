@@ -46,3 +46,24 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* Ariff's Solution */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+ul {
+  display: flex;
+  margin: 0px; /* ul in html has its default, so set to 0px to remove the default */
+  padding: 0px; /* ul in html has its default, so set to 0px to remove the default */
+  gap: 1em;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center; /* to center vertically within the container */
+  gap:2em
+}
